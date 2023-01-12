@@ -14,6 +14,6 @@ public class EloComputer extends Mapper<LongWritable, GameWritable, LongWritable
 
     @Override
     protected void map(LongWritable key, GameWritable value, Context context) throws IOException, InterruptedException {
-        
+
     }
 }
